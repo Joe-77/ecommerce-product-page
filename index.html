@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ecommerce-product-page-main</title>
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/Normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="menu">
+
+      <div class="left">
+        <div class="icon d-none">
+          <img src="images/icon-menu.svg" alt="" id="click">
+        </div>
+        <img src="images/logo.svg" alt="" class="logo">
+
+        <div class="all-menu-1">
+          <div class="Close2 d-none">
+            <img id="Close" src="images/icon-close.svg" alt="">
+          </div>
+          <div class="collections">
+            <p>collections</p>
+          </div>
+          <div class="men">
+            <p>men</p>
+          </div>
+          <div class="women">
+            <p>women</p>
+          </div>
+          <div class="about">
+            <p>about</p>
+          </div>
+          <div class="contact">
+            <p>contact</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="right">
+        <div class="cart" id="cart">
+          <img src="images/icon-cart.svg" alt="">
+          <span id="total"></span>
+          <div id="number-cart" class="not-show show">
+            <div id="close">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <p class="cart-name">Cart</p>
+            <p id="empty">Your cart is empty.</p>
+            <p id="empty1">Your cart is empty.</p>
+            <div class="shose">
+              <div class="one">
+                <img id="main_cart" src="images/image-product-1-thumbnail.jpg" alt="">
+                <div>
+                  <p>Fall Limited Edition Sneakers</p>
+                  <p id="cont">$125.00 x <span id="n-shose">0</span> <strong id="s-shose">$0</strong>
+                  </p>
+                </div>
+              </div>
+              <div class="two">
+                <img id="delete" class="delete" src="images/icon-delete.svg" alt="">
+              </div>
+              <button id="check">Checkout</button>
+            </div>
+          </div>
+        </div>
+        <img src="images/image-avatar.png" alt="" class="avatar">
+      </div>
+    </div>
+
+    <div class="Content">
+
+      <div class="l-content">
+        <div class="main-img">
+          <img id="main-1" src="images/image-product-1.jpg" alt="">
+        </div>
+
+        <div class="s-img">
+          <div class="all-img">
+            <img id="click-1" src="images/image-product-1-thumbnail.jpg" alt="">
+            <img id="click-2" src="images/image-product-2-thumbnail.jpg" alt="">
+            <img id="click-3" src="images/image-product-3-thumbnail.jpg" alt="">
+            <img id="click-4" src="images/image-product-4-thumbnail.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="phone-img d-none" id="slider-img">
+          <img src="images/image-product-1.jpg" alt="" id="ph-1" class="slider">
+          <img src="images/image-product-2.jpg" alt="" id="ph-2" class="slider">
+          <img src="images/image-product-3.jpg" alt="" id="ph-3" class="slider">
+          <img src="images/image-product-4.jpg" alt="" id="ph-4" class="slider">
+          <div class="left-right">
+            <div id="left">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div id="right">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="r-content">
+        <p class="company">Sneaker company</p>
+        <p class="edition">fall limited edition sneakers</p>
+        <p class="des">
+          These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+        <div class="Discount">
+          <p class="shose-Salary">$125.00 <span>50%</span></p>
+          <p class="discount">$250.00</p>
+        </div>
+        <div class="buy">
+          <div class="increment">
+            <span id="minus"><img src="images/icon-minus.svg" alt=""></span>
+            <span id="value">0</span>
+            <span id="plus"><img src="images/icon-plus.svg" alt=""></span>
+          </div>
+          <button id="cart-submit"><span><i class="fa-solid fa-cart-shopping"></i></span> Add to cart</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- The Parent -->
+  </div>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
